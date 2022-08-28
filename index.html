@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boo | Scrolling Animations</title>
+	<link rel="stylesheet" href="./css/Boo.css">
+	<script src="./js/Boo.js"></script>
+	<style>
+		:root{
+			--clrA: #31262C;
+			--clrB: #D4D3D8;
+		}
+
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Courier New', Courier, monospace;
+		}
+
+		body{background: var(--clrA);}
+
+		header{
+		    width: 100%;
+		    height: 100vh;
+			color: var(--clrB);
+		    text-align: center;
+		}
+
+		header div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.container{
+		    width: 90%;
+		    margin: 1.6em auto;
+		}
+
+		#cards{
+			max-width: 100%;
+			display: flex;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+		}
+
+		#cards .card{
+			width: calc(50% - 56px);
+			height: 150px;
+			margin: 25px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: var(--clrB);
+			color: var(--clrA);
+		    border-radius: 10px;
+		    font-family: verdana;
+		    font-size: 24px;
+		    font-weight: bold;
+		}
+
+		img{width: 100%;}
+
+		@media (max-width: 979px) {
+			.container{width: 100%; margin: 0;}
+			#cards{ flex-direction: column; align-items: center;}
+			#cards .card{width: 75%;}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div>
+			<img src="./img/logo.png" alt="">
+		</div>
+	</header>
+
+	<div class="container">
+		<div id="cards">
+			<div class="card Boo Top">Top</div>
+			<div class="card Boo Bottom">Bottom</div>
+			<div class="card Boo Left">Left</div>
+			<div class="card Boo Right">Right</div>
+			<div class="card Boo TopLeft">TopLeft</div>
+			<div class="card Boo TopRight">TopRight</div>
+			<div class="card Boo BottomLeft">BottomLeft</div>
+			<div class="card Boo BottomRight">BottomRight</div>
+			<div class="card Boo RotateX">RotateX</div>
+			<div class="card Boo RotateY">RotateY</div>
+			<div class="card Boo ZoomEx">ZoomEx </div>
+			<div class="card Boo ZoomDi">ZoomDi</div>
+			<div class="card Boo SkewTB">SkewTB</div>
+			<div class="card Boo SkewBT">SkewBT</div>
+			<div class="card Boo SkewRTB">SkewRTB</div>
+			<div class="card Boo SkewRBT">SkewRBT</div>
+		</div>
+	</div>
+</body>
+</html>

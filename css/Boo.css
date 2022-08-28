@@ -1,0 +1,24 @@
+body { overflow-x: hidden !important; max-width: 100% !important; }
+
+.Top{opacity: 0; transform: translateY(-50px); transition: 0.5s all ease-in-out;}
+.Bottom{opacity: 0; transform: translateY(50px); transition: 0.5s all ease-in-out;}
+.Left{opacity: 0; transform: translateX(-50px); transition: 0.5s all ease-in-out;}
+.Right{opacity: 0; transform: translateX(50px); transition: 0.5s all ease-in-out;}
+
+.TopLeft{opacity: 0; transform: translate(-50px, -50px); transition: 0.5s all ease-in-out;}
+.TopRight{opacity: 0; transform: translate(50px, -50px); transition: 0.5s all ease-in-out;}
+.BottomLeft{opacity: 0; transform: translate(-50px, 50px); transition: 0.5s all ease-in-out;}
+.BottomRight{opacity: 0; transform: translate(50px, 50px); transition: 0.5s all ease-in-out;}
+
+.RotateX{opacity: 0; transform: rotateX(90deg); transition: 0.5s all ease-in-out;}
+.RotateY{opacity: 0; transform: rotateY(90deg); transition: 0.5s all ease-in-out;}
+.ZoomEx{opacity: 0; transform: scale(0.20, -1.20); transition: 0.5s all ease-in-out;}
+.ZoomDi{opacity: 0; transform: scale(1.20, 1.20); transition: 0.5s all ease-in-out;}
+
+.SkewTB{opacity: 0; transform: skew(10deg, 10deg); transition: 0.5s all ease-in-out;}
+.SkewBT{opacity: 0; transform: skew(-10deg, -10deg); transition: 0.5s all ease-in-out;}
+.SkewRTB{opacity: 0; transform: skew(-20deg, 20deg); transition: 0.5s all ease-in-out;}
+.SkewRBT{opacity: 0; transform: skew(20deg, -20deg); transition: 0.5s all ease-in-out;}
+
+.apearAnimated{opacity: 1; transform: translate(0, 0); transform: rotateX(0); transform: rotateY(0);}
+       
