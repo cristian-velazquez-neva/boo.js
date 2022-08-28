@@ -8,7 +8,7 @@ Boo.js is a simple and minimalistic scroll animation library, which currently ha
 
 ## Documentation
 
-To be able to use this library, you must first use the name of the (`Boo`) class followed by the name of the animation you want to run.
+To be able to use this library, you must first use the name of the `Boo` class followed by the name of the animation you want to run.
 
 This is a list of animation names that can be used:
 
@@ -33,7 +33,7 @@ The names of the animations refer to where they appear from or how they do it.
 
 ## Animation creator
 
-Users can also create their own animations, just use the (`Boo`) class again and create a new class with the attributes (`opacity: 0;`), (`transition: 0.5s all ease-in-out;`) and (`transform: {value};`) where value will be how the animation will be executed. Example (`transform: scale(0.20, -1.20);`)
+Users can also create their own animations, just use the `Boo` class again and create a new class with the attributes `opacity: 0;`, `transition: 0.5s all ease-in-out;` and `transform: {value};` where value will be how the animation will be executed. Example `transform: scale(0.20, -1.20);`
 
 ## Nota
 
