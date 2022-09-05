@@ -4,7 +4,7 @@
 
 Boo.js is a simple and minimalistic scroll animation library, which currently has 16 different animations.
 
-[Go to page](https://cristian-velazquez.github.io/boo.js/)
+[Go to page](https://cristian-velazquez-neva.github.io/boo.js/)
 
 ## Documentation
 
